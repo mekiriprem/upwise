@@ -311,24 +311,24 @@ function HeaderScrolling() {
   /* 18 royalty‑free, business‑friendly Unsplash URLs */
   const pics = [
     // 0‑5
-    'https://images.unsplash.com/photo-1554774853-b414d4ecc6f5?auto=format&fit=crop&w=600&q=80',
+    'https://www.avanse.com/blogs/images/blogs-migration-169.jpg',
     'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1584697964192-37e6adf26c4a?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1551836022-4c4f3f9412a3?auto=format&fit=crop&w=600&q=80',
+    "https://images.unsplash.com/photo-1552664730-d307ca884978?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya3Nob3B8ZW58MHx8MHx8fDA%3D",
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4cWxK7sNCQnGKIu8hfsyyN-hslZvSqdBx2w&s',
     'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1562564055-71e051d34a56?auto=format&fit=crop&w=600&q=80',
+    'https://images.ctfassets.net/pdf29us7flmy/4C1SDkpwtqI2xy9GWabT42/af92a6a302d118c09f2686c22af3d9a8/shutterstock_796329814-red__1_.jpg?w=720&q=100&fm=jpg',
     // 6‑11
     'https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=600&q=80',
     'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80',
     'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1560264418-bd32556f47a7?auto=format&fit=crop&w=600&q=80',
+    'https://d.newsweek.com/en/full/2170657/strategic-planning.jpg',
     'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1551836023-d12f3863a9ad?auto=format&fit=crop&w=600&q=80',
+    'https://professional.dce.harvard.edu/wp-content/uploads/sites/9/2024/05/leadership.jpg',
     // 12‑17
     'https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&w=600&q=80',
     'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1600880292089-90e7bc38d694?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1590608897129-79e46b7d8b9a?auto=format&fit=crop&w=600&q=80',
+    'https://138596.fs1.hubspotusercontent-na1.net/hubfs/138596/The%20Transformative%20Power%20of%20Mentoring%20%E2%80%93%204%20Crucial%20Benefits.jpg',
+    'https://imageio.forbes.com/specials-images/imageserve/5fd3c8c1abab979ed2405b93/Excited-diverse-business-team-employees-screaming-celebrating-good-news-success/960x0.jpg?format=jpg&width=960',
     'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=600&q=80',
     'https://images.unsplash.com/photo-1526948531399-320e7e40f0ca?auto=format&fit=crop&w=600&q=80',
   ];
@@ -387,7 +387,7 @@ function HeaderScrolling() {
           </div>
 
           {/* ------ RIGHT SCROLLING CARDS ------ */}
-          <div className="flex-1 flex justify-center lg:justify-end">
+          <div className="flex-1 flex justify-center lg:justify-end pt-[6%]">
             <div className="origin-top-right rotate-[8deg] flex gap-6">
               <ScrollingColumn cardsData={col1} direction="up"   borderColor="border-[#d4dce4]" />
               <ScrollingColumn cardsData={col2} direction="down" borderColor="border-[#f6cfc2]" />

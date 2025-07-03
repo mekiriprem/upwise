@@ -11,6 +11,8 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 // import TeamBuildingShowcase from './components/TeamBuildingShowcase';
 import HeaderScrolling from './components/headerScrolling';
+import AboutUs from './components/AboutUs';
+import BrandIdentityCard from './components/BrandIdentityCard';
 
 function App() {
   return (
@@ -27,8 +29,12 @@ function App() {
         <ServicesGrid />
         <ClientTrust />
         <WhyUpwise />
-        <TrainingPackages />
         <Testimonials />
+        <AboutUs/>
+        <TrainingPackages />
+
+        {/* <BrandIdentityCard /> */}
+        
         <CTASection />
         <FAQ />
       </main>
