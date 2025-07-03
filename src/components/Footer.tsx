@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold">Upwise</h3>
-                    <p className="text-sm text-soft-grey-400">by Ritu Arora</p>
+                    {/* <p className="text-sm text-soft-grey-400">by Ritu Arora</p> */}
                   </div>
                 </div>
 
